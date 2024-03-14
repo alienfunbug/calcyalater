@@ -71,6 +71,12 @@ function updateDisplay(number) {
 	console.log(register);
 }
 
+function percentOperand(){
+	register /= 100;
+	displayVal.textContent = register;
+	console.log(register);
+}
+
 
 function addDecimal() {
 	if (!register.includes(".")) {
