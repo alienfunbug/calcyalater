@@ -69,16 +69,31 @@ body {
   background-color: darkkhaki;
 }
 
+.special:hover {
+  background-color: rgb(159, 153, 77);
+  transition: backgroundColor 1s;
+}
+
 .operand {
   background-color: orange;
+}
+.operand:hover {
+  background-color: rgb(215, 125, 0);
+  transition: backgroundColor 1s;
 }
 
 .number {
   max-width: var(--canvas-size);
   max-height: var(--canvas-size);
-  background-color: lightgoldenrodyellow;
+  background-color: lightgoldenrodyellow; 
   transition: backgroundColor 1s;
 }
+
+.number:hover {
+  background-color: rgb(210, 210, 180);
+  transition: backgroundColor 1s;
+}
+
 
 button {
   min-width: 50px;
