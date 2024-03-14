@@ -17,6 +17,9 @@ h1{
 body {
   display: flex;
   flex-direction: column;
+
+ 
+
 }
 
 .body {
@@ -74,6 +77,7 @@ body {
   max-width: var(--canvas-size);
   max-height: var(--canvas-size);
   background-color: lightgoldenrodyellow;
+  transition: backgroundColor 1s;
 }
 
 button {

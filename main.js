@@ -58,6 +58,11 @@ function operate(val1, val2, operand) {
 
 
 function updateDisplay(number) {
+    let effect = document.querySelector("#number"+number);
+    //console.log(effect);
+    //effect.style.backgroundColor = "white";
+    //effect.style.backgroundColor = "lightgoldenrodyellow";
+
 	if (register === "0") {
 		register = "";
 	}
